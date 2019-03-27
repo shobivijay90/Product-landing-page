@@ -1,0 +1,126 @@
+#header{
+  width: 100%;
+  height: 60px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+#header-img{
+  width: 300px;
+  padding: 10px;
+}
+
+#form{
+ position: relative;
+ top: 20px; 
+}
+body{
+background-color: light grey;
+}
+
+.nav-link{
+  font-size: 20px;
+  display: inline;
+  float: right;
+  padding: 20px;
+  right: 50px;
+}
+a {
+padding: 50px;
+color: black;
+text-decoration: none;
+}
+.title{
+  text-align: center;
+}
+.email{
+  text-align: center;
+  margin: 0 auto;
+}
+#email{
+  width: 300px;
+  height: 20px;
+}
+.submit{
+  text-align: center;
+  margin: 0 auto;
+}
+#submit{
+  height: 30px;
+  background-color: yellow;
+}
+#submit:hover{
+  background-color: orange;
+}
+
+#premium-materials-logo{
+  width: 100px;
+}
+#fast-shipping-logo{
+  width: 100px;
+}
+#qa-logo{
+  width: 100px;
+}
+
+.flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 100px;
+}
+.right-side{
+  width: 60%;
+text-wrap: break-word;
+}
+.logo{
+padding-right: 100px;
+}
+#video{
+  position: relative;
+  top: 100px;
+  text-align: center;
+  padding-top: 50px;
+}
+.flex-pricing{
+  position: relative;
+  top: 100px;
+}
+.tenor-trombone,.bass-trombone,.valve-trombone{
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+}
+h3{
+  background-color: lightgray;
+}
+.flex-pricing{
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  postion: relative;
+  top: 100px;
+}
+
+#footer{
+  width: 80%;
+  height: 100px;
+  background-color: lightgray;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#privacy-terms-contact{
+  float: right;
+  padding-top: 30px;
+}
+#copyright{
+ position: relative;
+ left: 700px;
+  top: 30px;
+
+}
