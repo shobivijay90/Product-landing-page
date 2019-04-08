@@ -1,115 +1,123 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  <link rel="stylesheet" href="https://github.com/shobivijay90/Product-landing-page/blob/master/Product-landing-page.css">
-    <meta charset="utf-8"> 
+  <header lang="en">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <div id="header">
-    <img src="https://i.postimg.cc/kgmGZ2Tv/original-trombones.png" id="header-img" alt="original trombones logo">
+  </header>
+  <section class="main">        <!--main open-->
     
-    <div id="nav-bar" class="nav-link">
-  <a href="#features">Features</a>
-       <a href="#howitworks">How it works</a>
-     <a href="#pricing">Pricing</a>
+    <header class="nav-bar">        <!--navbar open-->
+      
+      <div id="logo">
+        <img src="https://i.postimg.cc/kgmGZ2Tv/original-trombones.png" alt="logo-img" id="logo-img">
       </div>
-  </div>
+      
+      <div id="featureshowitworkspricing">
+        <ul class="nav-link">
+             <li><a href="#features">Features</a></li>
+             <li><a href="#howitworks">How it works</a></li>
+             <li><a href="#pricing">Pricing</a></li>
+        </ul>
+      </div>
+      
+    </header>                         <!--navbar close-->
     
-  </head>
-  
-    <body>
-  
-      <form id="form" action="https://www.freecodecamp.com/email-submit">
-  
-    <div class="title">
-    <h1>Handcrafted, home-made masterpieces</h1>
-    </div>
+    <section class="get-started">    <!--get started open-->
+      <h1 id="heading">Handcrafted, home-made masterpeices</h1>
+      <input type="email" placeholder="Enter your email address"><br><br>
+      <button type="submit" id="getstarted"><strong>GET STARTED</strong></button>
+      
+    </section>            <!--get started close-->
     
-    <div class="email">
-    <input type="email" id="email" placeholder="Enter your email address" required>
-    </div><br>
-    
-    <div class="submit">
-      <button id="submit" type="button"><strong>GET STARTED</strong></button> 
-   </div><br>
-  
-      </form>
-    <a name="features">
-      <div class="flex">
-        <div class="logo">
-          <img src="https://www.sharksups.com/wp-content/uploads/2016/12/Premium-materials-.png" alt="premium-materials-logo" id="premium-materials-logo">
+    <a name="features"></a>
+    <section class="features">   <!--features open-->
+      <div class="grid">
+        <div class="icon">
+          <img src="https://i.postimg.cc/KjxySd5G/fire.jpg" alt="fire-icon" id="fire-icon">
         </div>
-        <div class="right-side">
+        <div class="desc">
           <h2>Premium Materials</h2>
           <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
         </div>
-      </div><br>
-      <div class="flex">
-        <div class="logo">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT9iw3mVon7eB7t7ko1p9k6udkEM4sMHQ0firbW2C-8Fxau94nYA" alt="fast-shipping-logo" id="fast-shipping-logo">
-        </div>
-        <div class="right-side">
-          <h2>
-Fast Shipping</h2>
-          <p class="desc">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
-        </div>
-        </div><br>
-      <div class="flex">
-        <div class="logo">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvS7wIeLZgPxA3ucqJ2g2IsMMd959sfF1n5ivBLS4bmcAhZDU" alt="qa-logo" id="qa-logo">
-        </div>
-        <div class="right-side">
-          <h2>Quality Assurance</h2>
-          <p class="desc">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
-        </div>
-        </div><br>
-      <a name="howitworks">
-      <div id="video">
-        <iframe width="420" height="300" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0" type="video/mp4">
-        </iframe>
       </div>
-       
-        <a name="pricing">
-      <div class="flex-pricing">
-        <div class="tenor-trombone">
-          <h3>TENOR TROMBONE</h3>
-          <h1>$600</h1>
-          <p>Lorem ipsum.</p>
-          <p>Lorem ipsum.</p>
-          <p>Lorem ipsum dolor.</p>
-<p>Lorem ipsum.</p>
-          <button type="button" id="submit">SELECT</button>
-        </div><br>
-        
-        <div class="bass-trombone">
-        <h3>BASS TROMBONE</h3>
-          <h1>$900</h1>
-          <p>Lorem ipsum.</p>
-          <p>Lorem ipsum.</p>
-          <p>Lorem ipsum dolor.</p>
-<p>Lorem ipsum.</p>
-          <button type="button" id="submit">SELECT</button>  
-        </div><br>
-        
-        <div class="valve-trombone">
-          <h3>VALVE TROMBONE</h3>
-          <h1>$1200</h1>
-          <p>Plays similar to a Trumpet</p>
-          <p>Great for Jazz Bands</p>
-          <p>Lorem ipsum dolor.</p>
-          <p>Lorem ipsum.</p>
-          <button type="button" id="submit">SELECT</button>
+      
+      <div class="grid">
+        <div clas="icon">
+          <img src="https://i.postimg.cc/6p7gSWNV/truck.png" alt="truck-icon" id="truck-icon">
         </div>
+        <div class="desc">
+          <h2>Fast Shipping</h2>
+          <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
         </div>
-          
-          <div id="footer">
-            <div id="privacy-terms-contact">
-           <a href="#privacy">Privacy</a>
-           <a href="#terms">Terms</a>
-           <a href="#contact">Contact</a>
-            </div>
-            <p id="copyright">Copyright 2016, Original Trombones</p>
-            </div>
-          </div>
-          
-  </body>
+      </div>
+
+      <div class="grid">
+        <div class="icon">
+          <img src="https://i.postimg.cc/vHKS5J64/qa-logo.png" alt="qa-icon" id="qa-icon">
+        </div>
+        <div class="desc">
+          <h2>Quality Assurance</h2>
+          <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+        </div>
+      </div>
+            
+    </section>      <!--features close-->
+  
+     <a name="howitworks"></a>
+    <section class="howitworks">    <!--how it works open -->
+  
+        <iframe width="620" height="300" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0" type="video/mp4" id="video">
+        </iframe>
+     
+    </section>             <!--how it works close-->
+    
+    <a name="pricing"></a>
+   <section class="pricing">   <!--Pricing open-->
+     <div id="tenor">
+       <div class="trombone">TENOR TROMBONE</div>
+       <h2 class="amt">$600</h2>
+       <ol>
+         <li>Lorem ipsum.</li>
+         <li>Lorem ipsum.</li>
+         <li>Lorem ipsum dolor.</li>
+         <li>Lorem ipsum.</li>
+       </ol>
+       <button type="submit" class="select"><strong>SELECT</strong></button>
+   </div>
+     
+     <div id="bass">
+       <div class="trombone">BASS TROMBONE</div>
+         <h2 class="amt">$900</h2>
+       <ol>
+         <li>Lorem ipsum.</li>
+         <li>Lorem ipsum.</li>
+         <li>Lorem ipsum dolor.</li>
+         <li>Lorem ipsum.</li>
+       </ol>
+      <button type="submit" class="select"><strong>SELECT</strong></button>
+     </div>
+     
+     <div id="valve">
+       <div class="trombone">VALVE TROMBONE</div>
+         <h2 class="amt">$1200</h2>
+       <ol>
+         <li>Plays similar to a Trumpet</li>
+         <li>Great for Jazz Bands</li>
+         <li>Lorem ipsum dolor.</li>
+         <li>Lorem ipsum.</li>
+       </ol>
+          <button type="submit" class="select"><strong>SELECT</strong></button>
+     </div>
+      </section>   <!--Pricing close-->
+    
+    <footer>    <!--footer open-->
+      <ul class="footer-link">
+             <li><a href="#privacy">Privacy</a></li>
+             <li><a href="#terms">Terms</a></li>
+             <li><a href="#contact">Contact</a></li>
+        </ul>
+      <p>Copyright 2016, Original Trombones</p>
+    </footer>    <!--footer close-->
+  </section>                   <!--main close-->
+  
 </html>
