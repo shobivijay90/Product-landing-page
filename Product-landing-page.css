@@ -36,10 +36,6 @@
 
 li{
 list-style-type: none;
- margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 .nav-link a{
   text-decoration: none;
@@ -52,7 +48,8 @@ list-style-type: none;
     width: 50vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-around; 
+    justify-content: space-around;
+    margin-right: 20px;
 }
 
 .get-started{
@@ -82,29 +79,27 @@ button{
 }
 .grid{
   display: flex;
+  flex-direction: row;
   align-items: center;
+  height: 150px;
 }
-.icon{
-   display: flex;
-}
+
 p{
-    display: block;
-    font-size: 16px;
+  font-size: 16px;
   margin-left: 10px;
 }
 .desc{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 125px;
-  padding-left: 50px;
+  margin-left: 50px;
 }
 .features{
-  width: 70vw;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
-  scroll-margin-top: 150px;
+  margin-top: 50px;
+  scroll-margin-top: 120px;
 }
 
 .howitworks{
@@ -122,7 +117,7 @@ p{
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
-  scroll-margin-top: 100px;
+  scroll-margin-top: 80px;
 }
 
 #tenor,#bass,#valve{
@@ -180,19 +175,20 @@ footer p{
   color: gray;
 }
 
-@media screen and (max-width: 400px){
-  .main{
-    width: 100vw;
+@media screen and (max-width: 600px){
+  div{
+    display: block;
   }
   #logo{
     margin-left: 5px;
   }
   #logo-img{
-    width: 130px;
-    height: 20px;
+    width: 120px;
+    height: 15px;
   }
   #featureshowitworkspricing{
     margin-right: 30px;
+    margin-top: 10px;
   }
   #featureshowitworkspricing ul{
     display: flex;
@@ -221,30 +217,21 @@ footer p{
     width: 100px;
     font-size: 12px;
   }
-  h2{
-    width: 90vw;
-    font-size: 16px; 
-    justify-content: center;
+  .icon{
+    display: none;
   }
-  p{
-    font-size: 12px;
-    width: 170px;
+  .desc h2{
+    font-size: 16px;
   }
-    #fire-icon,#truck-icon,#qa-icon{
-    width: 50px;
-    height: 50px;
-  }
-  .grid{
-    display: flex;
-    flex-direction: column;
+  .features{
+    width: 90%;
     margin: 0 auto;
   }
-  .icon{
+  .grid{
     margin-top: 20px;
-  }
-  
-  .desc{
-     display: block;
+   }
+  .desc p{
+    font-size: 12px;
   }
   .howitworks{
     max-width: 90vw;
@@ -253,6 +240,7 @@ footer p{
   #video{
     height: 150px;
     width: 220px;
+    margin: 10px auto;
   }
   .pricing{
     display: flex;
@@ -263,6 +251,7 @@ footer p{
   #tenor,#bass,#valve{
     width: 80vw;
     font-size: 12px;
+    margin: 10px auto;
   }
   .amt{
     width: 50vw;
@@ -288,5 +277,34 @@ footer p{
   footer p{
     font-size: 10px;
     margin: 5px auto;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 900px){
+  .get-started h1{
+    font-size: 25px;
+  }
+  .nav-link a {
+    font-size: 16px;
+  }
+  .desc h2{
+    font-size: 20px;
+  }
+  
+  #video{
+    width: 400px;
+    height: 250px;
+  }
+  .pricing{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+  }
+  #tenor,#bass,#valve{
+    margin: 20px auto;
+    width: 50%;
+  }
+  footer{
+    width: 100%;
   }
 }
